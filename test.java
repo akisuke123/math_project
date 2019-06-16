@@ -10,6 +10,7 @@ class Test extends JFrame{
     JPanel pn = new JPanel();
     pn.setPreferredSize(new Dimension(100,100));
     add(pn);
+    pack();
     setVisible(true);
   }
   public static void main(String args[]){
